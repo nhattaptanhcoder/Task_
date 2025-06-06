@@ -30,7 +30,8 @@ class User{
     address VARCHAR(255) NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     
-    ) ENGINE = InnoDB DEFAULT CHARSET = utf9 COMMENT = ' TABLE USER_PASS' ";
+    ) ENGINE = InnoDB DEFAULT CHARSET = utf8 COMMENT = ' TABLE USER_PASS' ";
     $this->db->getConnection()->query($sql);
    }
 }
+s

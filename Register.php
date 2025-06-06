@@ -13,6 +13,6 @@ if(isset($_POST['submit'])){
         $_POST['gender'],
         $_POST['address']
     );
-
+ 
     header("Location: Register.html");
 }
